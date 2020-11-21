@@ -48,19 +48,19 @@ public class BookServiceImpl implements BookService{
     @Override
     public List<String> getBookCategories() {
         List<String> list = new ArrayList<>();
-        list.add("Bilim");
-        list.add("Edebiyat");
-        list.add("Tarih");
-        list.add("Eğitim");
-        list.add("Çocuk");
-        list.add("Din");
-        list.add("Kültür");
-        list.add("Sağlık");
-        list.add("Felsefe");
-        list.add("Politika");
-        list.add("Psikoloji");
-        list.add("Akademik");
-        list.add("Sanat");
+        list.add("Science");
+        list.add("Literature");
+        list.add("History");
+        list.add("Education");
+        list.add("Child");
+        list.add("Religion");
+        list.add("Culture");
+        list.add("Health");
+        list.add("Philosophy");
+        list.add("Politics");
+        list.add("Psychology");
+        list.add("Academic");
+        list.add("Art");
         return list;
     }
 
