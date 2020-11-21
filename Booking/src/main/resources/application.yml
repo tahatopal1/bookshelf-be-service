@@ -14,6 +14,5 @@ spring:
 
 server:
   port: 4444
-  ssl:
-    enabled: true
+
 
