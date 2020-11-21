@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1234
+    initialization-mode: always
+  jpa:
+    hibernate:
+      default-schema: public
+      ddl-auto: update
+server:
+  port: 4444
