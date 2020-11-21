@@ -3,7 +3,7 @@ spring:
     #url: jdbc:postgresql://localhost:5432/postgres
     #username: postgres
     #password: 1234
-    url: postgres://ilidfdzioqswfq:cdadde86026fcd82bcf9d3a93cf910052342bea48b25e5b5f79083eb5b1fd13e@ec2-176-34-114-78.eu-west-1.compute.amazonaws.com:5432/dff51628er5ndn
+    url: postgres://ilidfdzioqswfq:cdadde86026fcd82bcf9d3a93cf910052342bea48b25e5b5f79083eb5b1fd13e@ec2-176-34-114-78.eu-west-1.compute.amazonaws.com:5432/dff51628er5ndn?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
     username: ilidfdzioqswfq
     password: cdadde86026fcd82bcf9d3a93cf910052342bea48b25e5b5f79083eb5b1fd13e
     initialization-mode: always
@@ -11,5 +11,9 @@ spring:
     hibernate:
       default-schema: public
       ddl-auto: update
+
 server:
   port: 4444
+  ssl:
+    enabled: true
+
