@@ -4,6 +4,7 @@ Backend Spring Boot service of BookShelf project
 <h3>Technologies:</h3>
 
 Java 1.8
+
 Spring Framework
 JPA
 PostgeSQL
