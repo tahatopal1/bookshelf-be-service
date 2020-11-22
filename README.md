@@ -6,7 +6,9 @@ Backend Spring Boot service of BookShelf project
 Java 1.8
 
 Spring Framework
+
 JPA
+
 PostgeSQL
 
 ![](https://cdn.discordapp.com/attachments/613711994016628739/779985005618921492/unknown.png)
